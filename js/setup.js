@@ -3,7 +3,7 @@ let w, h, w2, h2
 
 function sound() {
     this.sound = document.createElement("audio");
-    this.sound.src = "pac-man-theme-remix-by-arsenic1987.mp3";
+    this.sound.src = "../mp3/pac-man-theme-remix-by-arsenic1987.mp3";
     this.sound.setAttribute("preload", "auto");
     this.sound.setAttribute("controls", "none");
     this.sound.style.display = "none";
@@ -45,7 +45,7 @@ function setup(canvas, draw) {
 
 function noise() {
     this.noise = document.createElement("audio");
-    this.noise.src = "pain.mp3";
+    this.noise.src = "../mp3/pain.mp3";
     this.noise.setAttribute("preload", "auto");
     this.noise.setAttribute("controls", "none");
     this.noise.style.display = "none";
@@ -62,7 +62,7 @@ function noise() {
 
  function yeah() {
      this.yeah = document.createElement("audio");
-     this.yeah.src = "yeah.mp3";
+     this.yeah.src = "../mp3/yeah.mp3";
      this.yeah.setAttribute("preload", "auto");
      this.yeah.setAttribute("controls", "none");
      this.yeah.style.display = "none";
@@ -81,7 +81,7 @@ function noise() {
 
   function knock() {
     this.knock = document.createElement("audio");
-    this.knock.src = "knock.mp3";
+    this.knock.src = "../mp3/knock.mp3";
     this.knock.setAttribute("preload", "auto");
     this.knock.setAttribute("controls", "none");
     this.knock.style.display = "none";
