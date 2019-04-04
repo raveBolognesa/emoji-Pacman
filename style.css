@@ -33,8 +33,6 @@ body button {
 #container {
   width: 800;
   height: 600;
-  /* background-image: url("./images/bg.png"); */
-  /* background-size: cover; */
   border: 3px solid #FF8E00;
 }
 

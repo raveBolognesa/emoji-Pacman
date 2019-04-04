@@ -20,9 +20,6 @@ function sound() {
 
 
 function setup(canvas, draw) {
-
-
-
     function setCanvasDimensions() {
         canvas.setAttribute("height", 600)
         canvas.setAttribute("width", 800)
