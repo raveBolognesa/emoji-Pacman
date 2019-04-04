@@ -260,7 +260,7 @@ function draw() {
     <p style="font-size: 20px;color: orange;">Your lifes:   <span>${coco.paintHearts()}</span></span></p>
     <p style="font-size: 20px;color: #76CBDA;">My Pos-X: ${coco.posX} & My PosY : ${coco.posY}</p>
     <p style="font-size: 20px;color: orange;">Framecounter:  ${framecounter}</p>
-    <p style="font-size: 20px;color: orange;">Nivel de juego:  ${puntos}</p><p>${coco.mySelect}</p>`;
+    <p style="font-size: 20px;color: orange;">Nivel de juego:  ${puntos}</p>`;
 
 
   }, 100 / puntos);
