@@ -8,7 +8,7 @@ amigo2.src = "./images/unicornio.png";
 
 function noise() {
     this.noise = document.createElement("audio");
-    this.noise.src = "../mp3/pain.mp3";
+    this.noise.src = "../emoji-Pacman/mp3/pain.mp3";
     this.noise.setAttribute("preload", "auto");
     this.noise.setAttribute("controls", "none");
     this.noise.style.display = "none";
@@ -25,7 +25,7 @@ var noiseDead = new noise();
 
 function yeah() {
     this.yeah = document.createElement("audio");
-    this.yeah.src = "../mp3/yeah.mp3";
+    this.yeah.src = "../emoji-Pacman/mp3/yeah.mp3";
     this.yeah.setAttribute("preload", "auto");
     this.yeah.setAttribute("controls", "none");
     this.yeah.style.display = "none";
@@ -44,7 +44,7 @@ var yeahGood = new yeah();
 
 function knock() {
     this.knock = document.createElement("audio");
-    this.knock.src = "../mp3/knock.mp3";
+    this.knock.src = "../emoji-Pacman/mp3/knock.mp3";
     this.knock.setAttribute("preload", "auto");
     this.knock.setAttribute("controls", "none");
     this.knock.style.display = "none";

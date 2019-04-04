@@ -4,7 +4,7 @@ let w, h, w2, h2
 
 function sound() {
     this.sound = document.createElement("audio");
-    this.sound.src = "../mp3/pac-man-theme-remix-by-arsenic1987.mp3";
+    this.sound.src = "../emoji-Pacman/mp3/pac-man-theme-remix-by-arsenic1987.mp3";
     this.sound.setAttribute("preload", "auto");
     this.sound.setAttribute("controls", "none");
     this.sound.style.display = "none";
