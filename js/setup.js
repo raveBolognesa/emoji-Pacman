@@ -1,6 +1,7 @@
 let w, h, w2, h2
 // var boton = document.querySelector("#start-button")
 
+
 function sound() {
     this.sound = document.createElement("audio");
     this.sound.src = "../mp3/pac-man-theme-remix-by-arsenic1987.mp3";
@@ -17,7 +18,6 @@ function sound() {
 }
 
  var myMusic = new sound();
-
 
 function setup(canvas, draw) {
     function setCanvasDimensions() {
@@ -41,57 +41,3 @@ function setup(canvas, draw) {
       hideHtml()
 }
 
-
-
-function noise() {
-    this.noise = document.createElement("audio");
-    this.noise.src = "../mp3/pain.mp3";
-    this.noise.setAttribute("preload", "auto");
-    this.noise.setAttribute("controls", "none");
-    this.noise.style.display = "none";
-    document.body.appendChild(this.noise);
-    this.play = function(){
-        this.noise.play();
-    }
-    this.stop = function(){
-        this.noise.pause();
-    }
-}
-
- var noiseDead = new noise();
-
- function yeah() {
-     this.yeah = document.createElement("audio");
-     this.yeah.src = "../mp3/yeah.mp3";
-     this.yeah.setAttribute("preload", "auto");
-     this.yeah.setAttribute("controls", "none");
-     this.yeah.style.display = "none";
-     document.body.appendChild(this.yeah);
-     this.play = function(){
-         this.yeah.play();
-     }
-     this.stop = function(){
-         this.yeah.pause();
-     }
- }
- 
-  var yeahGood = new yeah();
-
-  
-
-  function knock() {
-    this.knock = document.createElement("audio");
-    this.knock.src = "../mp3/knock.mp3";
-    this.knock.setAttribute("preload", "auto");
-    this.knock.setAttribute("controls", "none");
-    this.knock.style.display = "none";
-    document.body.appendChild(this.knock);
-    this.play = function(){
-        this.knock.play();
-    }
-    this.stop = function(){
-        this.knock.pause();
-    }
-}
-
- var knockGood = new knock();

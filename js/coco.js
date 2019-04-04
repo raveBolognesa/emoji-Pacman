@@ -6,6 +6,61 @@ var amigo2 = new Image();
 amigo2.src = "./images/unicornio.png";
 
 
+function noise() {
+    this.noise = document.createElement("audio");
+    this.noise.src = "../mp3/pain.mp3";
+    this.noise.setAttribute("preload", "auto");
+    this.noise.setAttribute("controls", "none");
+    this.noise.style.display = "none";
+    document.body.appendChild(this.noise);
+    this.play = function () {
+        this.noise.play();
+    }
+    this.stop = function () {
+        this.noise.pause();
+    }
+}
+
+var noiseDead = new noise();
+
+function yeah() {
+    this.yeah = document.createElement("audio");
+    this.yeah.src = "../mp3/yeah.mp3";
+    this.yeah.setAttribute("preload", "auto");
+    this.yeah.setAttribute("controls", "none");
+    this.yeah.style.display = "none";
+    document.body.appendChild(this.yeah);
+    this.play = function () {
+        this.yeah.play();
+    }
+    this.stop = function () {
+        this.yeah.pause();
+    }
+}
+
+var yeahGood = new yeah();
+
+
+
+function knock() {
+    this.knock = document.createElement("audio");
+    this.knock.src = "../mp3/knock.mp3";
+    this.knock.setAttribute("preload", "auto");
+    this.knock.setAttribute("controls", "none");
+    this.knock.style.display = "none";
+    document.body.appendChild(this.knock);
+    this.play = function () {
+        this.knock.play();
+    }
+    this.stop = function () {
+        this.knock.pause();
+    }
+}
+
+var knockGood = new knock();
+
+
+
 class Coco {
     constructor(we, he, ctx, r) {
         this.mySelect = document.getElementById("mySelect").value;
