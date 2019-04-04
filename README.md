@@ -1,4 +1,4 @@
-[![N|Solid](https://ravebolognesa.github.io/emoji-Pacman2/images/logo.png)](https://ravebolognesa.github.io/emoji-Pacman2/)
+[![N|Solid](https://ravebolognesa.github.io/emoji-Pacman/images/logo.png)](https://ravebolognesa.github.io/emoji-Pacman2/)
 
 # Emoji - Pacman
 
